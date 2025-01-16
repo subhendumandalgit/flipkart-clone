@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
+    /* color: black; */
     font-family: calibri;
+    overflow: hidden;
 }
 header{
     height: 66px;
@@ -16,11 +17,11 @@ header{
 }
 .logo{
     height:40px ;
-    width: 162px;
+    width: 170px;
     background-image: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg);
     background-size: cover;
-    margin-right: 30px;
-    margin-left: -20px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 .searchbox{
     height: 40px;
@@ -28,7 +29,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    margin: 10px;
 }
 .searchicon{
     height: 100%;
@@ -39,6 +40,7 @@ header{
     align-items: center;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    cursor: pointer;
 }
 .searchbox input{
     height: 100%;
@@ -56,7 +58,18 @@ header{
     display: flex;
     align-items: center;
     font-size: 1.2rem;
-    
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: #1c6dca;
+    color: white;
+
+}
+.rotate:hover{
+    transform: rotate(180deg);
+    transition-duration: .5s;
 }
 .cart{
     height: 41px;
@@ -65,6 +78,8 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
 }
 .cart p{
     margin-left: 5px;
@@ -76,21 +91,128 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
 }
 .seller p{
     margin-left: 10px;
 }
 .threedot{
     height: 41px;
-    width: 100px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.threedot:hover{
+    background-color: rgb(248, 248, 248);
+    border: .1px solid grey;
+    border-radius: 10px;
 }
 
+/* MAIN BODY */
 
 .container{
     height: 1000px;
     width: 100%;
     background-color: #F1F3F6;
+    padding: 10px;
+}
+.firstpanel{
+    height: 133.33px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    height: 100%;
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-mid{
+    height: 100%;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstpanel p{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.pic{
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+}
+.pic1{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/6a99be02898b225d.jpg?q=100);}
+.pic2{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/6c22d4999cdb4144.jpg?q=100);
+}
+.pic3{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/4a5fb0c8e0461335.jpg?q=100);
+}
+.pic4{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/2e30d5fac47eff64.jpg?q=100);
+}
+.pic5{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/46de73feaefc28cd.jpg?q=100);
+}
+.pic6{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/800e00a6322c6985.jpg?q=100);
+}
+.pic7{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/8538d487cd2bc8b7.jpg?q=100);
+}
+.pic8{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/e7947cc0cc4a6b7c.jpg?q=100);
+}
+.pic9{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/49f31863cc17d101.jpg?q=100);
+}
+.pic10{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/96/96/image/1400d6186b839cde.jpg?q=100);
+}
+
+.secondpanel{
+    margin-top: 15px;
+    height: 200px;
+    width: 100%;
+    background-image: url(sale.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.secondpanel i{
+    height: 85px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 29%;
+}
+.left{
+    left: -590px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.right{
+    right: -590px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
 }

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: calibri;
+}
+header{
+    height: 66px;
+    width: 100%;
+    background-color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    height:40px ;
+    width: 162px;
+    background-image: url(https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg);
+    background-size: cover;
+    margin-right: 30px;
+    margin-left: -20px;
+}
+.searchbox{
+    height: 40px;
+    width: 515px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.searchicon{
+    height: 100%;
+    width: 45px;
+    background-color: #F1F3F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.searchbox input{
+    height: 100%;
+    width: 100%;
+    background-color: #F1F3F6;
+    border: none;
+    font-size: 1.1rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.login{
+    height: 41px;
+    width: 110px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.cart{
+    height: 41px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cart p{
+    margin-left: 5px;
+}
+.seller{
+    height: 41px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.seller p{
+    margin-left: 10px;
+}
+.threedot{
+    height: 41px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height: 1000px;
+    width: 100%;
+    background-color: #F1F3F6;
+}

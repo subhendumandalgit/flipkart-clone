@@ -219,14 +219,33 @@ header{
 
 /* Third Panel */
 
-.thirdpanel{
-    height: 300px;
+.mainthird{
+    height:310px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.thirdpanel{
+    cursor: pointer;
+    height: 100%;
+    width: 82.5%;
     margin-top: 15px;
     padding: 15px;
     background-color: white;
     display: flex;
     flex-direction: column;
+}
+.ad{
+    height: 100%;
+    width:210px;
+    margin-top: 15px;
+    padding: 5px;
+    background-image: url(1adf7701bd3c35d7.webp);
+    background-size: cover;
+    cursor: pointer;
 }
 .thirdpanel h2{
     font-size: 1.5rem;
@@ -239,6 +258,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -10px;
 }
 .panelpic p{
     font-size: 1rem;
@@ -253,7 +273,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: .1px solid grey;
+    border: .1px solid rgb(227, 224, 224);
+    border-radius: 5px;
 }
 .pict{
     background-size: cover;
@@ -266,6 +287,7 @@ header{
 .pic12{
     height: 120px;
     width:160px ;
+    margin-bottom: 52px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/shoe/l/o/n/7-peshawari-stylelure-brown-original-imagraawy7veyyre.jpeg?q=60);
 }
 .pic13{
@@ -276,15 +298,25 @@ header{
 .pic14{
     height: 140px;
     width: 160px;
+    margin-bottom: 37px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/suitcase/v/9/x/-original-imagt756hjyf3bdk.jpeg?q=60);
 }
 .pic15{
     height: 165px;
     width: 130px;
+    margin-bottom: 13px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/thermal/q/n/e/s-1-cott-lad-black-top-fsv-1pc-lux-cottswool-original-imah6k5gs8ffhhum.jpeg?q=60);
 }
-.pic16{
-    height: 150px;
-    width: 150px;
-    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/128/128/image/dfe616dda71c7db8.jpg?q=60);
+.head{
+    display: flex;
+}
+.head i{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 1rem;
 }

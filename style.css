@@ -115,7 +115,7 @@ header{
 /* MAIN BODY */
 
 .container{
-    height: 1000px;
+    height:3000px;
     width: 100%;
     background-color: #F1F3F6;
     padding: 10px;
@@ -229,7 +229,6 @@ header{
 }
 
 .thirdpanel{
-    cursor: pointer;
     height: 100%;
     width: 82.5%;
     margin-top: 15px;
@@ -246,11 +245,6 @@ header{
     background-image: url(1adf7701bd3c35d7.webp);
     background-size: cover;
     cursor: pointer;
-}
-.thirdpanel h2{
-    font-size: 1.5rem;
-    height: 64px;
-    width: 100%;
 }
 .panelpic{
     height: 236px;
@@ -275,6 +269,7 @@ header{
     align-items: center;
     border: .1px solid rgb(227, 224, 224);
     border-radius: 5px;
+    cursor: pointer;
 }
 .pict{
     background-size: cover;
@@ -284,16 +279,28 @@ header{
     width: 135px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/shirt/n/g/t/m-24a5splcq038i-united-colors-of-benetton-original-imah82phsjfmjbfk.jpeg?q=60);
 }
+.pic11:hover{
+    height: 178px;
+    width: 138px;
+}
 .pic12{
     height: 120px;
     width:160px ;
     margin-bottom: 52px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/shoe/l/o/n/7-peshawari-stylelure-brown-original-imagraawy7veyyre.jpeg?q=60);
 }
+.pic12:hover{
+    height: 123px;
+    width: 163px;
+}
 .pic13{
     height: 175px;
     width: 130px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/ethnic-set/y/b/t/xl-hpuvyzwszc-gosriki-original-imahy9kraxh3qcvt.jpeg?q=60);
+}
+.pic13:hover{
+    height: 178px;
+    width: 133px;
 }
 .pic14{
     height: 140px;
@@ -301,14 +308,26 @@ header{
     margin-bottom: 37px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/suitcase/v/9/x/-original-imagt756hjyf3bdk.jpeg?q=60);
 }
+.pic14:hover{
+    height: 143px;
+    width: 163px;
+}
 .pic15{
     height: 165px;
     width: 130px;
     margin-bottom: 13px;
     background-image: url(https://rukminim1.flixcart.com/image/128/128/xif0q/thermal/q/n/e/s-1-cott-lad-black-top-fsv-1pc-lux-cottswool-original-imah6k5gs8ffhhum.jpeg?q=60);
 }
+.pic15:hover{
+    height: 168px;
+    width: 133px;
+}
 .head{
+    height: 50px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
 .head i{
     height: 25px;
@@ -319,4 +338,194 @@ header{
     background-color: blue;
     border-radius: 50%;
     font-size: 1rem;
+}.head h2{
+    font-size: 1.5rem;
 }
+
+/* 4th panel */
+
+.mainforth{
+    height: 510px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.forthpanel{
+    padding: 15px;
+    height: 100%;
+    width: 410px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.forthpanel_pic{
+    height: 100%;
+    width: 410px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box2{
+    height: 212px;
+    width: 185px;
+    border: .1px solid rgb(227, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.pictu{
+    height: 155px;
+    width: 130px;
+    background-size: cover;
+}
+.pictu:hover{
+    height:158px;
+    width: 133px;
+}
+.pic16{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/slipper-flip-flop/j/x/d/-original-imagqxvbe7fcjhsj.jpeg?q=60);
+}
+.pic17{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/shoe/h/d/c/7-grey-7-roaster-grey-original-imah8bzkdjupgaa5.jpeg?q=60);
+}
+.pic18{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/shopsy-trimmer/p/a/h/trimmer-1-4-mm-stainless-steel-t9-cordless-electric-blade-hair-original-imah5tgwrymv7skt.jpeg?q=60);
+}
+.pic19{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/jacket/p/4/l/4xl-no-mt2-jkt-hood-windc-gone-white-red-strip-motrex-original-imah4kj2vgqcnd3e.jpeg?q=60);
+}
+.pic20{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/shopsy-cup-saucer/c/i/p/cups-006-apeiron-original-imah4fv5aktg2hhf.jpeg?q=60);
+}
+.pic21{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/solar-light-set/i/l/f/-original-imah88egyhr9b3jb.jpeg?q=60);
+}
+.pic22{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/book-shelf/l/o/c/28-carbon-steel-58-1-2-4-layer-maron-11-attache-72-maroon-4-original-imah3g43ggzpyabr.jpeg?q=60);
+}
+.pic23{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/kerfl3k0pkrrdj/floor-furnishing/h/h/b/carpet-008-red-n-hot-original-imafvhj8hjyerxrh.jpeg?q=60);
+}
+
+.content p{
+    font-size: 1.2rem;
+}
+.bold1{
+    font-weight: bold;
+    color: rgb(24, 105, 24);
+}
+
+/* fifth panel */
+
+.fifthpanel{
+    height: 270px;
+    width: 100%;
+    margin-top: 10px;
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/940/200/image/1f87b4f67193d072.jpg?q=60);
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* sixth panel */
+
+.sixthpanel{
+    height: 220px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    height: 100%;
+    width: 405px;
+    background-size: cover;
+    cursor: pointer;
+}
+.pic24{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/3aa6feede520f158.jpg?q=60);
+}
+.pic25{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/f9c6194cb85e9e6c.jpg?q=60);
+}
+.pic26{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/535433b694119da2.jpg?q=60);
+}
+
+/* seventh panel */
+
+.img1{
+    height: 140px;
+    width: 145px;
+    background-size: cover;
+}
+.img1:hover{
+    height:143px;
+    width: 148px;
+}
+
+.pic27{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/chopper/r/l/p/3-stainless-steel-blade-powerful-mini-handy-quick-450-ml-chopper-original-imagzufvcjsugfs8.jpeg?q=60);
+}
+.pic28{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/lunch-box/m/s/y/1500-rectangular-classy-3-section-lunch-box-with-1-spoon-1-fork-original-imagz2ncvgfeg5xv.jpeg?q=60);
+}
+.pic30{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/pressure-cooker/x/i/l/no-3-5506-greenchef-original-imah5eznstszgahp.jpeg?q=60);
+}
+.pic29{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/collapsible-wardrobe/2/w/x/280-carbon-steel-570-1-4-eem-4-firozi-eemway-firozi-730-original-imaghtr8aghtugdf.jpeg?q=60);
+}
+.pic30{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/pressure-cooker/x/i/l/no-3-5506-greenchef-original-imah5eznstszgahp.jpeg?q=60);
+}
+
+.pic31{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/shirt/e/a/9/s-box01-jackbella-original-imah3erzgqwcxck9.jpeg?q=60);
+}
+.pic32{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/t-shirt/g/e/r/s-white-abhitrends-original-imah7ayjbynau2qx.jpeg?q=60);
+}
+.pic33{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/jacket/d/c/k/xl-1-no-multicolor-part-3-azmani-original-imah5686b3gygbrz.jpeg?q=60);
+}
+.pic34{
+    background-image: url(https://rukminim2.flixcart.com/image/360/360/xif0q/kurta/1/u/e/xl-1118-ravendra-creation-original-imag72kfjnzsupt2-bb.jpeg?q=60);
+}
+
+/* eighth panel */
+
+.pic36{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/fd50e5f04dcc51c0.jpg?q=60);
+}
+.pic37{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/9ddf77ddb340b5a8.png?q=60);
+}
+.pic38{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/6b314cfff312cb7a.jpg?q=60);
+}
+
+/* ninth panel */
+
+.pic39{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/ac08848171d5f6db.jpg?q=60);
+}
+.pic40{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/e25f155035a2b662.jpg?q=60);
+}
+.pic41{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/4ddd4a135657a6e4.jpeg?q=60);
+}
+

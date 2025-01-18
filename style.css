@@ -115,7 +115,7 @@ header{
 /* MAIN BODY */
 
 .container{
-    height:3000px;
+    height:3500px;
     width: 100%;
     background-color: #F1F3F6;
     padding: 10px;
@@ -529,3 +529,55 @@ header{
     background-image: url(https://rukminim2.flixcart.com/fk-p-flap/280/160/image/4ddd4a135657a6e4.jpeg?q=60);
 }
 
+/* tenth panel */
+
+.tenthpanel{
+    height: 320px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.panel{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    height: 100px;
+    width: 120px;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.pic42{
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/xif0q/usb-gadget/k/h/9/sd-tf-cards-reader-2-usb-3-0-ports-bestor-original-imaghgw3ahqbjabe.jpeg?q=60);
+}
+.pic43{
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/xif0q/keyboard/laptop-keyboard/k/9/t/key7-combo-keyboard-mouse-combo-set-with-2-4ghz-1200-dpi-original-imagvr8csghzsvn6.jpeg?q=60);
+}
+.pic44{
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/xif0q/monitor/j/l/z/-original-imagydnqbzayjxyz.jpeg?q=60);
+}
+.pic45{
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/xif0q/printer/0/l/1/-original-imags2yrq3eeetyz.jpeg?q=60);
+}
+.pic46{
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/l0lbrm80/inktoner/k/c/e/-original-imagccgm25cgeqgs.jpeg?q=60);
+}
+.pic47{
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/xif0q/monitor/9/g/s/-original-imagu3zrqukzdv7f.jpeg?q=60);
+}
+.panel p{
+    margin-top: px;
+}
+
+/* footer */
+
+footer{
+    height: 350px;
+    width: 100%;
+    background-color:  #100e0c;
+}
